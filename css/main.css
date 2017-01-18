@@ -1,0 +1,122 @@
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+
+/*Navigation*/
+
+.container-fluid {
+    background-color: #4d0000;
+}
+
+.navbar-brand {
+     font-family: 'Special Elite', cursive;
+     font-size: 24px;
+}
+
+.navbar-nav {
+    float: right;
+    font-family: 'Special Elite', cursive;
+}
+
+
+
+/*Header*/
+
+.page-header {
+    text-align: center;
+}
+
+#header {
+    margin-top: 5em;
+}
+
+
+
+/**** Body ****/
+
+body {
+    background-color: #00001a;
+}
+
+h1 {
+    font-family: 'Special Elite', cursive;
+    font-size: 48px;
+    color: #f2f2f2;
+}
+
+h2 {
+    font-family: 'Special Elite', cursive;
+    color: #f2f2f2;
+}
+
+h3 {
+    font-family: 'Special Elite', cursive;if;
+    color: #f2f2f2;
+}
+
+#introduction {
+    padding-left: 1.2em;
+    background-image: url('../img/gender.jpg');
+    background-size: cover;
+    height: 70em;
+}
+
+#featured {
+    padding-left: 1.2em;
+}
+
+
+#projects {
+    padding-left: 1.2em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+/*Images*/
+
+
+img {
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#watc-dnyc-img {
+    background-color: white;
+    height: 7em;
+}
+
+#watc-img {
+    height: 7em;
+}
+
+#old-news-img {
+    height: 7em;
+}
+
+
+
+/*Media Queries*/
+
+
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
