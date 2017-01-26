@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Daniel Smither || Full Stack Developer</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Overpass|Special+Elite" rel="stylesheet">
 </head>
@@ -60,20 +61,46 @@
         </div>
     </div>
     <div class="row" id="projects">
-        <div class="col-sm-4">
+        <div class="col-md-6">
             <img id="old-news-img" class="img-responsive" src="img/old_news_bkgrd16.jpg" alt="Old News">
             <a href="https://smitherd9.github.io/old_news/" target="_blank"><h3>Old News</h3></a>
         </div>
-        <div class="col-sm-4">
+        <div class="col-md-6">
+            <div id="old-news-description">
+                <h2>Old News</h2><h3>is a web app built for Thinkful's Front End Web Development course that allows the user to search for news stories in the recent past. It employs the New York Times' Article Search API and The Guardian's Open Platform API. The user can search for stories by date, by a date range and by a topic and date.</h3>
+                <br/>
+                <h4>Old News is intended for people with an interest in history and especially to counteract the negative effects of living in a world with a 24 hour news cycle, which causes even recent, important events to be forgotten and/or overlooked easily.</h4>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="projects">
+        <div class="col-md-6">
+            <div id="chances-description">
+                <h2>What are the Chances?</h2><h3>gets restaurant inspection data from New York City's Open Data API and the Department of Health and Mental Hygiene and calculates a "Chances Rating" from 1 to 10 based on the average score and grade from each inspection. Users can search by restaurant name, zipcode or cuisine type.</h3>
+                <br/>
+                <h4>What Are The Chances? was built using HTML, CSS, Javascript, jQuery, NodeJS, Express, and Unirest. Dev dependencies include Chai, Mocha and Nock for testing and Travis CI is used for continuous integration.</h4>
+            </div>
+        </div>
+        <div class="col-md-6">
             <img id="watc-img" class="img-responsive" src="img/foodpoisoning.gif" alt="What Are The Chances?">
             <a href="https://boiling-shelf-21235.herokuapp.com/" target="_blank"><h3>What Are The Chances?</h3></a>
         </div>
-        <div class="col-sm-4 end">
+    </div>
+
+        <div class="row" id="projects">
+        <div class="col-md-6">
             <img id="watc-dnyc-img" class="img-responsive" src="img/skull.svg" alt="What Are The Chances -- Death in NYC">
             <a href="https://calm-sands-83203.herokuapp.com/" target="_blank"><h3>What Are The Chances? <br/> -- Death in NYC</h3></a>
         </div>
+        <div class="col-md-6">
+            <div id="chances-death-description">
+            <h2>What Are The Chances? -- Death in NYC</h2><h3>searches NYC's Open Data API for data about leading causes of death in the city for the years 2007 to 2014. Users can choose to search for data by ethnicity, sex or year. The app then gets the leading cause of death by the highest age adjusted death rate and returns that to the user. It also generates a C3-js bar chart showing other leading causes of death and their age adjusted death rates for the available years.</h3>
+            <br/>
+            <h4>Technologies used include React, Redux, React Router, NodeJS, Express, Unirest and C3-js. Dev dependencies include Chai and Mocha for testing and Travis is used for continuous integration.</h4>
+            </div>
+        </div>
     </div>
-    </div>
+
 
 
 <footer>
@@ -87,6 +114,9 @@
         <div class="col-sm-4"></div>
         </div>
     </div>
+    <div class="footer-copyright">
+            <span><i class="fa fa-copyright" aria-hidden="true"></i>2016 Daniel Smither</span>
+    </div>
 </footer>
 
 </body>
@@ -95,5 +125,6 @@
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/346d870b8b.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 
 </html>
