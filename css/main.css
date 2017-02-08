@@ -8,32 +8,45 @@
 
 /*Navigation*/
 
-.container-fluid {
-    background-color: #4d0000;
+.container-fluid {    
+    background-color: transparent;        
 }
 
 .navbar-brand {
-     font-family: 'Special Elite', cursive;
+     font-family: 'Source Sans Pro', sans-serif;
      font-size: 24px;
+     color: white;
 }
 
 .navbar-nav {
     float: right;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+      
 }
 
 .dropdown {    
     margin-right: 5.1em;
 }
 
-.navbar-inverse .navbar-nav>li>a {
-    color: #9d9d9d;
+.navbar-nav>li>a {    
     font-size: 24px;
+    color: white;    
+}
+
+.navbar-nav>li>a:hover {    
+    background-color: gray;  
 }
 
 
 
 /*Header*/
+
+header {
+    background: #000000; 
+    background: -webkit-linear-gradient(to top, #000000 , #434343); 
+    background: linear-gradient(to top, #000000 , #434343); 
+}
+
 
 .page-header {
     text-align: center;
@@ -41,6 +54,8 @@
 
 #header {
     margin-top: 5em;
+    text-align: center;
+
 }
 
 
@@ -48,78 +63,101 @@
 /**** Body ****/
 
 body {
-    background-color: #00001a;
+    
+/*Man of Steel*/
+
+
+
+/*  background: #780206; 
+    background: -webkit-linear-gradient(to left, #780206 , #061161); 
+    background: linear-gradient(to left, #780206 , #061161); */
+
+
+/*Mice Elf*/
+
+/*  background: #948E99; 
+    background: -webkit-linear-gradient(to top, #948E99 , #2E1437); 
+    background: linear-gradient(to top, #948E99 , #2E1437); */
+        
+
+
+/*Dark Skies*/
+
+    background: #4B79A1; 
+    background: -webkit-linear-gradient(to left, #4B79A1 , #283E51); 
+    background: linear-gradient(to left, #4B79A1 , #283E51); 
+        
+
+        
 }
 
 h1 {
-    font-family: 'Special Elite', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 48px;
-    color: #f2f2f2;
+    color: white;
 }
 
 h2 {
-    font-family: 'Special Elite', cursive;
-    color: #f2f2f2;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
 }
 
 h3 {
-    font-family: 'Special Elite', cursive;
-    color: #ccccd1;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
 }
 
 h4 {
-    font-family: 'Special Elite', cursive;
-    color: #b2b2ba;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
 }
 
-#introduction {
-    padding-left: 1.2em;
-    background-image: url('../img/eski2.jpg');
-    background-size: cover;
-    height: 70em;
-}
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: white;
 
-#intro-text {
-    text-align: center;
-    background: rgba(0, 0, 0, 0.75);
-    margin-left: -2px;
 }
 
 
 
 #featured {
+    margin-top: 8em;
+}
+
+
+.featured {
     padding-left: 1.2em;
+    text-align: center;
 }
 
 
 #projects {
     padding-top: 8em;
+    padding-bottom: 8em;
     margin: 0 auto;
     text-align: center;
 }
 
 /*Footer*/
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    background-color: #1f181e;
-    font-family: 'Special Elite', cursive;
-    color: #f2f2f2;
-
+footer {
+    
+    background: #000000; 
+    background: -webkit-linear-gradient(to top, #000000 , #434343); 
+    background: linear-gradient(to top, #000000 , #434343); 
+    padding: 3em 0em 0em 0em;
+        
 }
 
-.footer p {
-    font-family: 'Special Elite', cursive;
-    color: #f2f2f2;
-}
+
 
 #github {
     padding-left: 1.2em;
     margin: 0 auto;
     text-align: center;
+
+        
 }
 
 .fa.fa-github {   
@@ -136,8 +174,82 @@ h4 {
 
 }
 
+/*Font Awesome Icon Styles*/
+
 .fa-copyright { 
     border-radius: 5px; 
+}
+
+.fa-newspaper-o {
+    color: white;
+}
+
+.fa-newspaper-o:hover {
+    color: #3d0062;
+}
+
+
+.fa-cutlery {
+    color: white;
+}
+
+.fa-cutlery:hover {
+    color: #46b834;
+}
+
+
+.fa-heartbeat {
+    color: white;
+}
+
+.fa-heartbeat:hover {
+    color: #780206;
+}
+
+.fa-linkedin-square {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+
+
+
+
+
+#old-news-description > h2 {
+    font-family: 'Special Elite', cursive;
+}
+
+#old-news-description > h3 {
+    text-align: left;
+}
+
+#old-news-below-icon {
+    font-family: 'Special Elite', cursive;
+}
+
+#chances-description > h2 {
+    font-family: 'Shrikhand', cursive;
+}
+
+#chances-description > h3 {
+    text-align: left;
+}
+
+#chances-below-icon {
+    font-family: 'Shrikhand', cursive;
+}
+
+#chances-death {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+#chances-death-below-icon {
+    font-family: 'Shrikhand', cursive;
 }
 
 
