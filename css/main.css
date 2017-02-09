@@ -18,6 +18,15 @@
      color: white;
 }
 
+.navbar-header > a {
+    color: white;    
+}
+
+.navbar-header > a:hover {
+    background-color: gray;
+    
+}
+
 .navbar-nav {
     float: right;
     font-family: 'Source Sans Pro', sans-serif;
@@ -169,9 +178,12 @@ footer {
     text-align: center;    
 }
 
-.footer-copyright span {
-    color: whitesmoke;   
+.footer-copyright > span {
+    color: whitesmoke;
+}
 
+.footer-copyright > a {
+    display: block;
 }
 
 /*Font Awesome Icon Styles*/

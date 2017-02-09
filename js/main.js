@@ -25,9 +25,14 @@ $.fn.extend({
 
 
 
+// var showMoreDescription = function(e) {
+// 	e.preventDefault();
+// 	$('#chances-description-hidden').text('it calculates a "Chances Rating" from 1 to 10 of the likelihood of a customer getting food poisoning. Users can search by restaurant name, zipcode or cuisine type.')
+// 	var paperfold = $('#chances-description-hidden').paperfold();
+// 	$('.readMore').click(paperfold.toggle);
+// }
 
-
-
+// $('.readMore').click(showMoreDescription);
 
 
 
