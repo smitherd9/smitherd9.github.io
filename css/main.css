@@ -54,11 +54,13 @@ header {
     background: #000000; 
     background: -webkit-linear-gradient(to top, #000000 , #434343); 
     background: linear-gradient(to top, #000000 , #434343); 
+    padding-bottom: 5em;
 }
 
 
 .page-header {
     text-align: center;
+    border: none;
 }
 
 #header {
@@ -165,13 +167,9 @@ footer {
     padding-left: 1.2em;
     margin: 0 auto;
     text-align: center;
-
         
 }
 
-.fa.fa-github {   
-    color: white;
-}
 
 .footer-copyright {
     height: 100%;
@@ -187,6 +185,11 @@ footer {
 }
 
 /*Font Awesome Icon Styles*/
+
+.fa-github {   
+    color: white;
+}
+
 
 .fa-copyright { 
     border-radius: 5px; 
@@ -227,44 +230,13 @@ footer {
 }
 
 
+/*Featured Work Border*/
 
-
-
-
-#old-news-description > h2 {
-    font-family: 'Special Elite', cursive;
-}
-
-#old-news-description > h3 {
-    text-align: left;
-}
-
-#old-news-below-icon {
-    font-family: 'Special Elite', cursive;
-}
-
-#chances-description > h2 {
-    font-family: 'Shrikhand', cursive;
-}
-
-#chances-description > h3 {
-    text-align: left;
-}
-
-#chances-below-icon {
-    font-family: 'Shrikhand', cursive;
-}
 
 #chances-death {
     border-left: 1px solid white;
     border-right: 1px solid white;
 }
-
-#chances-death-below-icon {
-    font-family: 'Shrikhand', cursive;
-}
-
-
 
 
 /*Images*/
