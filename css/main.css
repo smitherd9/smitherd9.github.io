@@ -61,16 +61,10 @@
 /*Header*/
 
 header {
-/*    background: #000000; 
-    background: -webkit-linear-gradient(to top, #000000 , #434343); 
-    background: linear-gradient(to top, #000000 , #434343); */
     padding-bottom: 5em;
-
-
-
-background: #757F9A; 
-background: -webkit-linear-gradient(to top, #757F9A , #D7DDE8); 
-background: linear-gradient(to top, #757F9A , #D7DDE8); 
+    background: #757F9A; 
+    background: -webkit-linear-gradient(to top, #757F9A , #D7DDE8); 
+    background: linear-gradient(to top, #757F9A , #D7DDE8); 
         
 }
 
@@ -327,8 +321,14 @@ img {
     }
 
     .resume {
-        display: block;
-        padding-top: 2em;
+        display: inline-block;
+        padding-top: 0.5em;
+        font-size: 18px;
+        border: 1px solid black;
+        background-color: transparent;
+        color: white;
+        box-shadow: 0px 1px 5px 1px black;
+        
 
     }
 
@@ -336,8 +336,10 @@ img {
         color: white;
     }
 
-    .resume > a:hover {
-        color: blue;
+    .resume:hover {
+        background-color: #4B79A1;
+        color: white;       
+
     }
 
 }
