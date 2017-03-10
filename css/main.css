@@ -119,6 +119,10 @@ button, input, select, textarea {
     font-size: 17px;
 }
 
+button {
+    border: 0px solid transparent;
+}
+
 button:hover {
     background-color: #b6e3f8;
 }
