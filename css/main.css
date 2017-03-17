@@ -158,11 +158,13 @@ p {
 
 #featured {
     margin-top: 8em;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 
 .featured {
-    padding-left: 1.2em;
+    margin: 0 auto;
     text-align: center;
 }
 
