@@ -23,7 +23,9 @@
 }
 
 .navbar-header > a {
-    color: black;    
+    color: black;
+    background-color: #ffffff;
+    border-radius: 2px;    
 }
 
 /*.navbar-header > a:hover {
@@ -49,7 +51,9 @@
 
 .navbar-nav>li>a {    
     font-size: 24px;
-    color: black;    
+    color: black;
+    background-color: #ffffff;
+    border-radius: 2px;    
 }
 
 .navbar-nav>li>a:hover {    
@@ -105,7 +109,7 @@ body {
         
 }
 
-button, input, select, textarea {
+.button, input, select, textarea {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
@@ -117,11 +121,11 @@ button, input, select, textarea {
     font-size: 17px;
 }
 
-button {
+.button {
     border: 0px solid transparent;
 }
 
-button:hover {
+.button:hover {
     background-color: #b6e3f8;
 }
 
@@ -152,6 +156,10 @@ p {
     font-size: 18px;
     color: white;
 
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 
@@ -200,7 +208,6 @@ footer {
 
 
 #github {
-    padding-left: 1.2em;
     margin: 0 auto;
     text-align: center;
         
@@ -344,6 +351,25 @@ img {
 
     }
 
+}
+
+@media (max-width: 768px) {
+    .fa-5x {
+        font-size: 10em !important;
+    }
+}
+
+@media (max-width: 667px) {
+    .fa-5x {
+        font-size: 7em !important;
+    }
+}
+
+
+@media (max-width: 568px) {
+    .fa-5x {
+        font-size: 6em !important;
+    }
 }
 
 
