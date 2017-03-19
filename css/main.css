@@ -232,10 +232,6 @@ footer {
 
 /*Font Awesome Icon Styles*/
 
-.fa-github {   
-    color: white;
-}
-
 
 .fa-copyright { 
     border-radius: 5px; 
@@ -267,12 +263,28 @@ footer {
     color: #780206;
 }
 
+.fa-github {   
+    color: white;
+}
+
 .fa-linkedin-square {
     color: white;
 }
 
 .fa-twitter {
     color: white;
+}
+
+.fa-twitter:hover {
+    color: #d3d3d3;
+}
+
+.fa-linkedin-square:hover {
+    color: #d3d3d3;
+}
+
+.fa-github:hover {
+    color: #d3d3d3;
 }
 
 
