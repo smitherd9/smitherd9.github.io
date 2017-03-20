@@ -129,6 +129,10 @@ body {
     background-color: #b6e3f8;
 }
 
+.gh-repo-btn {
+    margin-top: 2em;
+}
+
 
 h1 {
     font-family: 'Source Sans Pro', sans-serif;
