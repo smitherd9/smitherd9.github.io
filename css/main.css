@@ -388,6 +388,13 @@ img {
     }
 }
 
+@media (max-width: 479px) {
+    .col-xs-4 {
+        width: 100%;
+        float: none;
+    }
+}
+
 
 
 
