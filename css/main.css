@@ -189,7 +189,7 @@ a:hover {
 }
 
 #projects p {
-    margin: 0 0 0 24px;
+    margin: 0 0 24px 0;
 }
 
 #chances-description, #chances-death-description, #old-news-description {
