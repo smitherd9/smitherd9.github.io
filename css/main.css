@@ -237,6 +237,11 @@ footer {
 
 .footer-copyright > a {
     display: block;
+    color: white;
+}
+
+.footer-copyright > a:hover {
+   color: #337ab7;
 }
 
 /*Font Awesome Icon Styles*/
