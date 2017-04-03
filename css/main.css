@@ -8,6 +8,10 @@
 
 /*Navigation*/
 
+.navbar {
+    background-color: white;
+}
+
 .container-fluid {    
     background-color: transparent;        
 }
