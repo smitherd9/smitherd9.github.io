@@ -70,6 +70,8 @@
 
 header {
     background: #FFFFFF;
+    background-image: url('../img/175_batur.jpg');
+    background-size: cover;
     padding-bottom: 15em;        
 }
 
@@ -80,11 +82,11 @@ header {
 }
 
 .page-header > h1 {
-    color: black;
+    color: white;
 }
 
 .page-header > h3 {
-    color: black;
+    color: white;
 }
 
 #header {
@@ -96,6 +98,17 @@ header {
 .page-header-name > a {
     color: black;
     text-decoration: none;
+}
+
+#react-img {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+#node-img {
+    width: 200px;
+    padding: 20px;
 }
 
 
