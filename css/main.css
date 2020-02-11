@@ -70,7 +70,7 @@
 
 header {
     background: #FFFFFF;
-    background-image: url('../batur.JPG');
+    background-image: url('../boat_crop.JPG');
     background-size: cover;
     padding-bottom: 15em;        
 }
@@ -119,9 +119,16 @@ body {
        
 /*Dark Skies*/
 
-    background: #4B79A1; 
+    /* background: #4B79A1; 
     background: -webkit-linear-gradient(to left, #4B79A1 , #283E51); 
-    background: linear-gradient(to left, #4B79A1 , #283E51); 
+    background: linear-gradient(to left, #4B79A1 , #283E51);  */
+
+/* Nighthawk */
+
+background: #2980b9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
         
         
 }
@@ -222,8 +229,13 @@ a:hover {
 /*Footer Styles*/
 
 footer {
+
+    /* Lizard */
     
-    background: #404040; 
+background: #304352;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
     padding: 3em 0em 0em 0em;
         
 }
