@@ -216,7 +216,7 @@ a:hover {
     margin: 0 0 24px 0;
 }
 
-#chances-description, #chances-death-description, #old-news-description {
+#chances-description, #chances-death-description, #old-news-description, #bali-map-description {
     padding-bottom: 3em;
 }
 
@@ -298,6 +298,14 @@ padding: 2em 0em;
 
 .fa-heartbeat:hover {
     color: #780206;
+}
+
+.fa-music {
+    color: white;
+}
+
+.fa-music:hover {
+    color: #f5a623;
 }
 
 .fa-github {   
